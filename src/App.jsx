@@ -2,7 +2,7 @@ import { Toaster } from "react-hot-toast";
 import useUsers from "./hooks/useUsers";
 
 export default function App() {
-  const { users, isLoading } = useUsers();
+  // const { users, isLoading } = useUsers();
 
   return (
     <div style={{ padding: 40 }}>
