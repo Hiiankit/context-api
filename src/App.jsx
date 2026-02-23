@@ -10,7 +10,7 @@ export default function App() {
       <h1>Axios + Toast + Loading Demo</h1>
 
       {isLoading ? (
-        <p>Loading users...</p>
+        <p className="loadingState">Loading users List...</p>
       ) : (
         <ul>
           {users.map((user) => (
